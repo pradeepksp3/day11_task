@@ -1,0 +1,83 @@
+
+   .container {
+    border: 1px solid black;
+    width: 890px;
+   }
+   .name {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .required:after{
+        content: "*";
+        color: rgb(255, 0, 0);
+    }
+    h2{
+        margin-bottom: -10%;
+        padding-bottom: 2vh;
+    }
+    
+    .rating {
+        width: 200px;
+        height: 40px;
+    }
+    .rating label {
+        float: right;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    .rating label:not(:first-of-type) {
+        padding-right: 2px;
+    }
+    .rating label:before {
+        content: "\2605";
+        font-size: 25px;
+        color: #ccc;
+        line-height: 1;
+    }
+    .rating input {
+        display: none;
+    }
+    .rating input:checked ~ label:before, .rating:not(:checked) > label:hover:before, .rating:not(:checked) > label:hover ~ label:before {
+        color: #f9df4a;
+    }
+    .required1{
+     padding-top: 9vh;
+    
+    }
+    .required1::after{
+        content: "*";
+        color: #ff0101;
+    }
+
+    input[type="radio"]:checked
+    .radio1{
+     padding-left: 1vh;
+     color: rgb(0, 0, 0);
+     font-weight: 600;
+     
+    }
+   
+    .nun{
+        /* padding:2vh; */
+        padding-left: 9vh;
+    
+    }
+    .non{
+        padding-left: 7vh;
+    }
+    
+    .row-1 {
+        background-color: #F1F1F1
+    }
+    .row-3 {
+        background-color: #F1F1F1
+    }
+    button{
+    
+        border-radius: 10%;
+        box-shadow: 0 2px 12px rgb(252, 0, 0);
+    }
+    
